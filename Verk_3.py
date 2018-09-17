@@ -14,6 +14,10 @@ def index():
 # VERKEFN 3 LIÐUR A
 ###################
 
+###################
+# A liður virkar á localhost en ekki heroku.
+###################
+
 @route("/a")
 def index():
     return template("temp-a.tpl")
